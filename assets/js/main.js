@@ -60,12 +60,12 @@ const iconTheme = 'bx-sun'
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
 function scaleResume() {
-    document.body.classList.add('scale-cv')
+    document.body.classList.add('scale-resume')
 }
 
 /*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
 function removeScale() {
-    document.body.classList.remove('scale-cv')
+    document.body.classList.remove('scale-resume')
 }
 
 /*==================== GENERATE PDF ====================*/
