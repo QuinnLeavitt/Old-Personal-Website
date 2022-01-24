@@ -536,8 +536,11 @@ img{
     margin-right: auto;
   }
   /*blank space for skills to appear on bottom of the page*/
+  .education{
+    margin-top: 4rem;
+  }
   .skills{
-    margin-top: 9rem;
+    margin-top: 10rem;
   }
 
   .l-header,
@@ -571,9 +574,9 @@ img{
   .home_container{
     gap: 1.5rem;
   }
-  .home_button-movil{
+  /*.home_button-movil{
     display: none;
-  }
+  }*/
 
   /*.references_container{
     grid-template-columns: repeat(2, 1fr);
