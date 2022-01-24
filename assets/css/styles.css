@@ -237,19 +237,21 @@ img{
   align-items: center;
   font-size: var(--small-font-size);
 }
+
 .home_email{
   display: inline-flex;
   align-items: center;
   font-size: small;
+  color: blue;
 }
 
 .home_email:hover{
   color: var(--title-color);
 }
+
 .home_icon{
   font-size: 1.2rem;
   margin-right: .25rem;
-
 }
 .home_button-movil{
   display: inline-block;
@@ -277,11 +279,14 @@ img{
   display: inline-flex;
   align-items: center;
   font-size: small;
+  color: blue;
 }
 
 .social_link:hover{
   color: var(--title-color);
 }
+
+
 .social_icon{
   font-size: 1.2rem;
   margin-right: .25rem;
@@ -374,13 +379,13 @@ img{
 
 /*========== INTERESTS ==========*/
 .interests_container{
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-top: var(--mb-2);
 }
 
 .interests_content{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -477,7 +482,7 @@ img{
   }*/
 
   .interests_container{
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
   }
 }
