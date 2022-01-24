@@ -53,18 +53,18 @@ function scrollTop() {
 }
 window.addEventListener('scroll', scrollTop)
 
-
-/*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
+/*
+==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================
 function scaleResume() {
     document.body.classList.add('scale-resume')
 }
 
-/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
+==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================
 function removeScale() {
     document.body.classList.remove('scale-resume')
 }
 
-/*==================== GENERATE PDF ====================*/
+==================== GENERATE PDF ====================
 // PDF generated area
 let areaResume = document.getElementById('area-resume')
 
@@ -90,3 +90,4 @@ resumeButton.addEventListener('click', () => {
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
 
 })
+*/
