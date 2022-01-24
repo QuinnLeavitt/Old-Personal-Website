@@ -1,5 +1,3 @@
-const { html2pdf } = require("./html2pdf.bundle.min")
-
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
@@ -53,41 +51,30 @@ function scrollTop() {
 }
 window.addEventListener('scroll', scrollTop)
 
-/*
-==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================
-function scaleResume() {
-    document.body.classList.add('scale-resume')
-}
 
-==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================
-function removeScale() {
-    document.body.classList.remove('scale-resume')
-}
 
-==================== GENERATE PDF ====================
+/*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
+
+
+/*==================== REMOVE THE SIZE WHEN THE CV IS DOWNLOADED ====================*/
+
+
+/*==================== GENERATE PDF ====================*/
 // PDF generated area
-let areaResume = document.getElementById('area-resume')
-
-let resumeButton = document.getElementById('resume-button')
 
 
 // Html2pdf options
 
 
 // Function to call areaCv and Html2Pdf options 
-function generateResume() {
-    html2pdf(areaResume)
-}
+
 
 // When the button is clicked, it executes the three functions
-resumeButton.addEventListener('click', () => {
+
     // 1. The class .scale-cv is added to the body, where it reduces the size of the elements
-    scaleResume()
+
 
     // 2. The PDF is generated
-    generateResume()
+
 
     // 3. The .scale-cv class is removed from the body after 5 seconds to return to normal size.
-
-})
-*/
