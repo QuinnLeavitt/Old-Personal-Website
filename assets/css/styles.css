@@ -241,7 +241,6 @@ img{
   display: inline-flex;
   align-items: center;
   font-size: small;
-  /*color: var(--container-color);*/
 }
 
 .home_email:hover{
@@ -278,7 +277,6 @@ img{
   display: inline-flex;
   align-items: center;
   font-size: small;
-  /*color: var(--container-color);*/
 }
 
 .social_link:hover{
