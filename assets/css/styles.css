@@ -535,6 +535,10 @@ img{
     margin-left: auto;
     margin-right: auto;
   }
+  /*blank space for skills to appear on bottom of the page*/
+  .skills{
+    margin-top: 9rem;
+  }
 
   .l-header,
   .scrolltop{
