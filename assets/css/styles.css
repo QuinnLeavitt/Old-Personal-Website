@@ -541,7 +541,7 @@ img{
     display: none;
   }
   .generate-pdf{
-    display: inline-block;
+    display: /*inline-block*/ none;
   }
   .resume{
     display: grid;

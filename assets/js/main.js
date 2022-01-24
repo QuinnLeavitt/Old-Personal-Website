@@ -53,10 +53,6 @@ function scrollTop() {
 }
 window.addEventListener('scroll', scrollTop)
 
-/*==================== DARK LIGHT THEME ====================*/
-const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
-const iconTheme = 'bx-sun'
 
 /*==================== REDUCE THE SIZE AND PRINT ON AN A4 SHEET ====================*/
 function scaleResume() {
