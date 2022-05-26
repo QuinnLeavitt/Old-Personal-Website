@@ -44,19 +44,7 @@ html{
   scroll-behavior: smooth;
 }
 
-/*========== Variables Dark theme ==========*/
-
-
-/*========== Button Dark/Light ==========*/
-
-
-/*========== Font size variables to scale cv ==========*/
-
-
-/*========== Generate PDF button ==========*/
-
-
-/*========== Classes modified to reduce size and print on A4 sheet ==========*/
+/*========== Classes modified to reduce size ==========*/
 
 body{
   margin:  0 0 var(--header-height) 0;
