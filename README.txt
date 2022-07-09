@@ -1,4 +1,3 @@
-I used this tutorial to help create the styling for this website:
-https://youtu.be/oYjseP_Qhv4
+I hope you enjoy this showcase of my skills and demonstration of web development skills I have developed while in school. 
 
-I learned a few things and have made it my own over time.
+Please feel free to use any of my code as a basis for your own portfolio/personal website. 
