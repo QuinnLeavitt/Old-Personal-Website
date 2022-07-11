@@ -363,7 +363,23 @@ img{
 
 
 /*========== REFERENCES ==========*/
+.references_content{
+  gap: .25rem;
+  padding-top: .5rem;
+}
 
+.references_subtitle{
+  color: var(--text-color-light)
+}
+
+.references_subtitle,
+.references_content{
+  font-size: var(--smaller-font-size);
+}
+
+.references_title{
+  font-size: var(--h3-font-size);
+}
 
 /*========== INTERESTS ==========*/
 .interests_container{
@@ -455,30 +471,5 @@ img{
 
   .home_container{
     gap: 1.5rem;
-  }
-  /*blank space for skills to appear on bottom of the page*/
-  .education{
-    margin-top: 4rem;
-  }
-  .skills{
-    margin-top: 10rem;
-  }
-  /*
-  .home_button-movil{
-    display: none;
-  }
-
-  .references_container{
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .languages_content{
-    grid-template-columns: repeat(3, max-content);
-    column-gap: 3.5rem;
-  }*/
-
-  .interests_container{
-    grid-template-columns: repeat(4, max-content);
-    column-gap: 3.5rem;
   }
 }
