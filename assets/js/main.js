@@ -11,10 +11,10 @@ const showMenu = (toggleId, navId) => {
         })
     }
 }
-showMenu('nav_toggle', 'nav_menu')
+showMenu('nav-toggle', 'nav-menu')
 
 /*==================== REMOVE MENU ON MOBILE ====================*/
-const navLink = document.querySelectorAll('.nav_link')
+//const navLink = document.querySelectorAll('.nav_link')
 
 function linkAction() {
     const navMenu = document.getElementById('nav_menu')
