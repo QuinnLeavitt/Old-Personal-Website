@@ -425,7 +425,7 @@ img{
 }
 
 /*========== MEDIA QUERIES ==========*/
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
   .nav_list{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem .5rem;
