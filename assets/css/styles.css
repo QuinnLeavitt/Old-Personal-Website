@@ -425,7 +425,7 @@ img{
 }
 
 /*========== MEDIA QUERIES ==========*/
-@media screen and (max-width: 320px){
+@media screen and (max-width: 500px){
   .nav_list{
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem .5rem;
@@ -471,5 +471,9 @@ img{
 
   .home_container{
     gap: 1.5rem;
+  }
+
+  .home_button-movil{
+    display: none;
   }
 }

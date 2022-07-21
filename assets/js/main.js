@@ -11,13 +11,13 @@ const showMenu = (toggleId, navId) => {
         })
     }
 }
-showMenu('nav-toggle', 'nav-menu')
+showMenu('nav_toggle', 'nav_menu')
 
 /*==================== REMOVE MENU ON MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav_link')
 
 function linkAction() {
-    const navMenu = document.getElementById('nav-menu')
+    const navMenu = document.getElementById('nav_menu')
     // On click each nav_link, removes the show-menu class
     navMenu.classList.remove('show-menu')
 }
@@ -32,7 +32,7 @@ function scrollActive() {
     sections.forEach(current => {
         const sectionHeight = current.offsetHeight
         const sectionTop = current.offsetTop - 50;
-        sectionId = current.getAttribute('id')
+        sectionId = current.getAttribute('id');
 
         if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
             document.querySelector('.nav_menu a[href*=' + sectionId + ']').classList.add('active-link')
