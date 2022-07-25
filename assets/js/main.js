@@ -19,7 +19,7 @@ const navLink = document.querySelectorAll('.nav_link')
 function linkAction() {
     const navMenu = document.getElementById('nav-menu')
     // On click each nav_link, removes the show-menu class
-    //navMenu.classList.remove('show-menu')
+    navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
